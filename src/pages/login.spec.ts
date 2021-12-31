@@ -16,12 +16,11 @@ test.beforeEach( async ( {page} )=> {
 });
 
 
-/*
+
 test.describe( 'Mount an exsiting dataset', () => {
 
     test('Mount a dataset' , async({page}) => {
 
-        await page.click('div.v-card__title');
         await page.click('button.a-toolbar_left-action-menu_activator');
         await page.click('text=Mount existing dataset');
         await page.dblclick('text=_testdata');
@@ -34,17 +33,39 @@ test.describe( 'Mount an exsiting dataset', () => {
 
     });
 
-    test('Search new registered dataset', async({page}) => {
+  
+     test('Search new registered dataset', async({page}) => {
 
-        await page.click('div.v-card__title');
-        await page.goto('https://showroom.arivis.com/#/datasets');
+        await page.fill('[placeholder="search..."]' , 'hcs');
+        await page.click('a[title=hcs]');
+        await page.screenshot({ path: 'screenshot6.png'});
 
-    });
+    }); 
+
+    test('Delete Dataset by keyboard' , async({page}) => {
+
+
+        await page.click('text = hcs');
+        await page.keyboard.press('Delete');
+        await page.click('text=yes');
+
+    })
+
+  /*  test('Delete Dataset by ctx menu' , async ({page}) => {
+
+
+        await page.click('text = hcs');
+        await page.click('text=More');
+        await page.click('text=Delete');
+        await page.click('text=yes');
+
+
+    }); */
 
 });
-*/
 
-test('Open Viwewer For Dataset' , async ({page}) => {
+
+test('Open Viewer For Dataset' , async ({page}) => {
 
     await page.dblclick('text=hcs');
     await page.click('i.fa-palette');
