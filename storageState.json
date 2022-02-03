@@ -1,0 +1,91 @@
+{
+  "cookies": [
+    {
+      "sameSite": "Lax",
+      "name": "auth.strategy",
+      "value": "local",
+      "domain": "showroom.arivis.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "sameSite": "Lax",
+      "name": "vh_session",
+      "value": "s%3AEjJN6z7o4pR9R6QtLyJm3wO4oMktXuCQ.i46XiZl0GBMtHgqcMVJt7CtpGzcziXXYB0j%2FMtr1hnA",
+      "domain": "showroom.arivis.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false
+    },
+    {
+      "sameSite": "Lax",
+      "name": "auth._token.local",
+      "value": "Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgyRDM3N0U3LUI4ODctNDI1RS04NzJDLUM1QjYzODBERTI1MyIsImlhdCI6MTY0MzgzNjEzMSwiZXhwIjoxNjQzODM5NzMxfQ.K2ccASh0nrzcvWtEdcd-xXG079peanGIh8xfJ2XCtes",
+      "domain": "showroom.arivis.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "sameSite": "Lax",
+      "name": "auth._token_expiration.local",
+      "value": "1643839731000",
+      "domain": "showroom.arivis.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "sameSite": "Lax",
+      "name": "auth._refresh_token.local",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjI2ZGJhNjZhLWMyZTQtNGFkNC04NTUwLWUwMjkzMmFlZTk1MiIsImlhdCI6MTY0MzgzNjEzMSwiZXhwIjoxNjQ2NDI4MTMxLCJpc3MiOiJhcGktc2VydmVyIn0.hSHoSUtNvy9aRH-K6JaKkfeXpkLRhxjZDeFa63RgezY",
+      "domain": "showroom.arivis.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false
+    },
+    {
+      "sameSite": "Lax",
+      "name": "auth._refresh_token_expiration.local",
+      "value": "1646428131000",
+      "domain": "showroom.arivis.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://showroom.arivis.com",
+      "localStorage": [
+        {
+          "name": "auth._token_expiration.local",
+          "value": "1643839731000"
+        },
+        {
+          "name": "auth.strategy",
+          "value": "local"
+        },
+        {
+          "name": "auth._refresh_token.local",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjI2ZGJhNjZhLWMyZTQtNGFkNC04NTUwLWUwMjkzMmFlZTk1MiIsImlhdCI6MTY0MzgzNjEzMSwiZXhwIjoxNjQ2NDI4MTMxLCJpc3MiOiJhcGktc2VydmVyIn0.hSHoSUtNvy9aRH-K6JaKkfeXpkLRhxjZDeFa63RgezY"
+        },
+        {
+          "name": "auth._token.local",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgyRDM3N0U3LUI4ODctNDI1RS04NzJDLUM1QjYzODBERTI1MyIsImlhdCI6MTY0MzgzNjEzMSwiZXhwIjoxNjQzODM5NzMxfQ.K2ccASh0nrzcvWtEdcd-xXG079peanGIh8xfJ2XCtes"
+        },
+        {
+          "name": "auth._refresh_token_expiration.local",
+          "value": "1646428131000"
+        }
+      ]
+    }
+  ]
+}
